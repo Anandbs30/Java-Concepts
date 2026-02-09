@@ -1,0 +1,6 @@
+Till Now learning :
+1) Type safety
+2) Class
+3) Interface
+4) Bound[T extends number]  
+	* Combination of the Bounds

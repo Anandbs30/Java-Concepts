@@ -54,9 +54,9 @@ public class ReadWriteLocks {
 			}
 		};
 		
-		Thread writeThread = new Thread(writeTask);
-		Thread readThread1 = new Thread(readTask);
-		Thread readThread2 = new Thread(readTask);
+		Thread writeThread = new Thread(writeTask, "writeThread");
+		Thread readThread1 = new Thread(readTask, "readThread1");
+		Thread readThread2 = new Thread(readTask, "readThread2");
 		
 		writeThread.start();
 		readThread1.start();

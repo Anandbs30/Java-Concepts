@@ -1,5 +1,7 @@
 package V33_MultiThreadding;
-
+/*
+ Runnable interface is an FUnctional interface where the interface consist only one abstract method.
+ */
 public class Runnable_Interface implements Runnable{
 
 	@Override
