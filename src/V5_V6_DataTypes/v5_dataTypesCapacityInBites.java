@@ -4,7 +4,7 @@ public class v5_dataTypesCapacityInBites {
 	public static void main(String[] args) {
 		int a = 10;//Capacity to store 4 b bites
 		long b = a;//Here we can store the int value into long type as long have high capacity of 8 bites
-		float c = b;//We can also store into into float as well, Java automatically convert int to float ans : 10.0
+		float c = b;//We can also store into float as well, Java automatically convert int to float ans : 10.0
 		
 		System.out.println("Value of the int a is : "+a);
 		System.out.println("Value of the long b is : "+b);
