@@ -11,7 +11,7 @@ public class v5_dataTypesCapacityInBites {
 		System.out.println("Value of the float c is : "+c);
 		//But we can't store float values into int and long
 		float d = 2.07f;
-		int e = (int)d;//here we get an error as needed type case if you want to store then type casting is needed
+		int e = (int)d;//here we get an error as needed type cast if you want to store then type casting is needed
 		//Through the type casting we can store value into int data type with loss as .07 is the loss here
 		
 		System.out.println("Value of the float d is : "+d);
