@@ -1,6 +1,7 @@
 package V36_Collection_FrameWork.Collection_Interface.List.ArrayList.ArrayLst_Example;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 
 public class Student_Main {
@@ -76,5 +77,8 @@ public class Student_Main {
 		for(Student_Example na : std) {
 			System.out.println("Student name : "+na.getName()+" and GPA : "+na.getGpa());
 		}
+		
+		//We can also pass the collections.
+		Collections.sort(std, comparing1);
 	}
 }

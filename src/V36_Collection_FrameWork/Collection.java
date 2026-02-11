@@ -69,10 +69,10 @@ package V36_Collection_FrameWork;
 
 
    Vector                             TreeSet
-   (legacy)                           (sorted)
+   (legacy, Thread safe)              (sorted)
       |
      Stack                               |
-     (LIFO)                           SortedSet
+     (LIFO, Thread safe)              SortedSet
 
 
    CopyOnWriteArrayList              EnumSet
@@ -108,6 +108,8 @@ package V36_Collection_FrameWork;
                                                                        |
                                                              ConcurrentLinkedQueue
                                                              (non-blocking)
+                                                             
+NOTE : ArrayList and LinkedList are not thread safe.
 
  */
 public class Collection {
