@@ -35,7 +35,21 @@ public class v7_arirthmaticOperator {
 		
 		long g = 41213;
 		float h = 77.21f;
-		
+		/*
+         long i = g + h;   // ❌ Compile-time error
+         🔎 What Happens Internally?
+         When you do:
+         g + h
+         Java applies numeric promotion rules.
+         Since one operand is float, Java promotes the long to float before performing the operation.
+         So this:
+         g + h
+         Becomes:
+         (float)g + h
+         Now the result type is:
+         float
+		 but you are storing that into long.
+		*/
 //		long i = g + h;//can't do this, Not allowed
 		
 		//Multiplication
