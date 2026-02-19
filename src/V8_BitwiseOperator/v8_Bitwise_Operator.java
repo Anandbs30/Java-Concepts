@@ -2,7 +2,7 @@ package V8_BitwiseOperator;
 
 
 //Note : If the binary number is starts from the 0 then that is Positive 
-//If the number starts with 0 then that is Negative 
+//If the number starts with 1 then that is Negative 
 public class v8_Bitwise_Operator {
 	public static void main(String[] args) {
 		int a = 17;
