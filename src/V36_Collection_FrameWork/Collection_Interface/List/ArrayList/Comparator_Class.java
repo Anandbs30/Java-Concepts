@@ -50,7 +50,7 @@ public class Comparator_Class{
 	public static void main(String[] args) {
 		List<Integer> nums = Arrays.asList(2, 4, 1, 3, 6, 5);
 		System.out.println("List elements without sorting : \n"+nums);
-		nums.sort(null);
+		nums.sort(null);//Here sorting order is null means natural sort(Ascending order).
 		System.out.println("The sorted in ascending order : \n"+nums);
 		
 		nums.sort(new MyCustomeSort());

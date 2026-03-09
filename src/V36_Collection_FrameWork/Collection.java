@@ -6,6 +6,8 @@ package V36_Collection_FrameWork;
  * What is Collection FrameWork?
  * Ans : It provides a set of interfaces and classes that helps in managing groups of objects.
  * 
+ * 
+ * 1 List --> 2 Map interface) --> 3 Set (interface) --> 4 Queue (interface)
  * NOTE : Before the introduction of the collection framework in JDK 1.2, java used to rely on a variety of classes like Vector, Stack, HashTable and Arrays
  * to store and manipulate groups of objects.
  * 
