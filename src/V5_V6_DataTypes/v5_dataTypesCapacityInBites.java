@@ -1,8 +1,8 @@
 package V5_V6_DataTypes;
-
+//NOTE : Each 1 byte = 8 bites.
 public class v5_dataTypesCapacityInBites {
 	public static void main(String[] args) {
-		int a = 10;//Capacity to store 4 b bites
+		int a = 10;//Capacity to store 4 bytes means 4 * 8 = 32 bites.
 		long b = a;//Here we can store the int value into long type as long have high capacity of 8 bites
 		float c = b;//We can also store into float as well, Java automatically convert int to float ans : 10.0
 		
