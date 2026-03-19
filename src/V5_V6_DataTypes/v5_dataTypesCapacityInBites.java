@@ -3,12 +3,13 @@ package V5_V6_DataTypes;
 public class v5_dataTypesCapacityInBites {
 	public static void main(String[] args) {
 		int a = 10;//Capacity to store 4 bytes means 4 * 8 = 32 bites.
-		long b = a;//Here we can store the int value into long type as long have high capacity of 8 bites
+		long b = a;//Here we can store the int value into long type as long have high capacity of 8 bytes 8 * 8 = 64
 		float c = b;//We can also store into float as well, Java automatically convert int to float ans : 10.0
 		
 		System.out.println("Value of the int a is : "+a);
 		System.out.println("Value of the long b is : "+b);
 		System.out.println("Value of the float c is : "+c);
+		
 		//But we can't store float values into int and long
 		float d = 2.07f;
 		int e = (int)d;//here we get an error as needed type cast if you want to store then type casting is needed
