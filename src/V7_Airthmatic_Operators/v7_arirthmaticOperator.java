@@ -20,18 +20,18 @@ public class v7_arirthmaticOperator {
 		int a = 5;
 		int b = 2;
 		int c = a % b;
-		System.out.println("The reminder here is : "+c);
+		System.out.println("The reminder here is : "+c);//output : 1
 		
 		//Below we mixing the data types ADDITION
 		int d = 100;
 		float e = 10.23f;
-		float f2 = d + e;
+		float f2 = d + e;//here data loss not happen basically float have the less precision so this will make round so value stored in e is 10.22999;
 		System.out.println(f2);//Through this as well data loss happen Output : 110.229996 required is : 110.23
 		int f1 = d + (int)e;//Through this we can able to do that but the will loss the decimal values here
 		System.out.println(f1);//Output : 110 but required is 110.23
 		double x = 10.23;
 		double y = d + x;
-		System.out.println(y);//No data loss nothing here we get required ans as : 110.23
+		System.out.println(y);//No data loss nothing here we get required ans as : 110.23 as its have high precision so this will make exactly.
 		
 		long g = 41213;
 		float h = 77.21f;
