@@ -1,5 +1,5 @@
 build:
-  id: 000090000
-  version: 00.09.00
+  id: 90000
+  version: 11.09.00
   name: "The new Production-Environment"
   type: "The new Production Environment"
